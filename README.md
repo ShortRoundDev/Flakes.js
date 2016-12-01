@@ -17,3 +17,9 @@ window.onresize = function(){
 	document.getElementById("flakes").height	= window.innerHeight;
 }
 ```
+
+##Requirements
+HTML5
+
+##Demo
+[Demo can be found here](http://www.collinoswalt.com/list.html)
