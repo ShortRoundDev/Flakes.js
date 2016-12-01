@@ -14,6 +14,6 @@ If you want this to be responsive to resizing windows, add a window.resize liste
 ```javascript
 window.onresize = function(){
 	document.getElementById("flakes").width 	= window.innerWidth;
-	document.getElementById("flakes").height	= winodw.innerHeight;
+	document.getElementById("flakes").height	= window.innerHeight;
 }
 ```
