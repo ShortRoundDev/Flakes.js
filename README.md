@@ -1,5 +1,7 @@
 #Flakes.js
 
+JavaScript for creating snowflakes on your webpage
+
 ##Running
 
 simply include these two lines at the bottom of your page:
