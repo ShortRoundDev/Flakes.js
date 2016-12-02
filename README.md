@@ -11,15 +11,6 @@ Include these two lines at the bottom of your page:
 <script src="flakes.js"></script>
 ```
 
-and put
-```CSS
-#flakes {
-	pointer-events: none;
-}
-```
-
-In your css file to ensure that you can click beneath the canvas
-
 If you want this to be responsive to resizing windows, add a window.resize listener:
 
 ```javascript
