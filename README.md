@@ -4,12 +4,21 @@ JavaScript for creating snowflakes on your webpage
 
 ##Running
 
-simply include these two lines at the bottom of your page:
+Include these two lines at the bottom of your page:
 
 ```HTML
 <canvas id="flakes"></canvas>
 <script src="flakes.js"></script>
 ```
+
+and put
+```CSS
+#flakes {
+	pointer-events: none;
+}
+```
+
+In your css file to ensure that you can click beneath the canvas
 
 If you want this to be responsive to resizing windows, add a window.resize listener:
 
