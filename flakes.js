@@ -5,6 +5,9 @@ flakes_canv.style.top = "0";
 flakes_canv.style.left = "0";
 var flakes_ctx = flakes_canv.getContext('2d');
 
+var head = document.querySelector("head");
+head.innerHTML = head.innerHTML + "<style>#flakes { pointer-events: none; }</style>";
+
 flakes_canv.width = window.innerWidth;
 flakes_canv.height = window.innerHeight;
 
